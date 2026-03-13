@@ -1,0 +1,151 @@
+# /brief-lite — Content Brief w 15 minut
+
+Skill do generowania postów na LinkedIn na bazie aktualnych newsów z Twojej branży.
+AI zadaje pytania, Ty odpowiadasz swoimi słowami — gotowy post w kilka minut.
+
+---
+
+## Krok 0 — Konfiguracja (jednorazowa)
+
+Sprawdź czy istnieje plik `~/.brief-lite-config.md`.
+
+**Jeśli NIE istnieje** — zapytaj użytkownika:
+
+```
+Cześć! Zanim zaczniemy, muszę wiedzieć w jakiej branży działasz.
+
+Przykłady:
+- Marketing i social media
+- Programowanie / IT
+- E-commerce
+- Finanse i inwestycje
+- Edukacja
+- HR i rekrutacja
+
+W jakiej branży działasz? (opisz w 1-2 zdaniach, np. "Marketing dla małych firm, specjalizuję się w social media")
+```
+
+Po odpowiedzi zapisz plik `~/.brief-lite-config.md`:
+```markdown
+# Brief Lite — konfiguracja
+Branża: [odpowiedź użytkownika]
+Data konfiguracji: [data]
+```
+
+**Jeśli plik ISTNIEJE** — wczytaj branżę i przejdź do Kroku 1.
+
+---
+
+## Krok 1 — Szukaj newsów
+
+Użyj WebSearch żeby znaleźć 5-6 aktualnych newsów/trendów z branży użytkownika.
+
+**Zapytania do wyszukiwania (wykonaj 2-3):**
+- `[branża] news today` lub `[branża] news [dzisiejsza data]`
+- `[branża] trends 2026` lub `[branża] controversy`
+- `[branża] LinkedIn discussion`
+
+**Z wyników wybierz 5-6 tematów które:**
+- Są z ostatnich 1-3 dni (priorytet: dzisiejsze)
+- Mają potencjał na dyskusję (kontrowersja, zmiana, nowa technologia, zaskakujące dane)
+- Są zrozumiałe dla szerokiej publiczności (nie ultra-niszowe)
+
+**Prezentuj tak:**
+
+```
+CONTENT BRIEF — [data]
+
+Oto co się dzieje w Twojej branży:
+
+1. [tytuł/temat] — [1 zdanie kontekstu]
+2. [tytuł/temat] — [1 zdanie kontekstu]
+3. [tytuł/temat] — [1 zdanie kontekstu]
+4. [tytuł/temat] — [1 zdanie kontekstu]
+5. [tytuł/temat] — [1 zdanie kontekstu]
+
+Który temat Cię ciągnie? (podaj numer)
+Albo opisz własny temat, o którym chcesz napisać.
+```
+
+---
+
+## Krok 2 — Interview
+
+Po wyborze tematu przez użytkownika, przeprowadź krótki wywiad.
+
+**Cel:** wyciągnąć osobistą perspektywę, konkretne doświadczenie i emocję. NIE ogólne opinie.
+
+**Pytanie otwierające (zawsze jedno):**
+> "Co Cię tu ciągnie? Co pomyślałeś jak to zobaczyłeś?"
+
+**Potem: 2-3 follow-upy REAKTYWNE.** Nie z listy — na podstawie tego co użytkownik odpowiedział. Goń za tym co ciekawe, zaskakujące lub emocjonalne.
+
+Przykłady reaktywnych follow-upów (wybierz pasujący do kontekstu):
+- Jeśli dał emocję → "Czemu akurat to Cię ruszyło?"
+- Jeśli dał fakt → "Skąd to wiesz? Widziałeś to u siebie?"
+- Jeśli dał opinię → "A kto by się z tym nie zgodził? I co byś mu odpowiedział?"
+- Jeśli dał historię → "Co z tego wynikło? Co zrobiłeś inaczej?"
+- Jeśli mówi ogólnikami → "Daj mi konkret. Jedna sytuacja, jedna liczba."
+
+**Zasady:**
+- Max 4 pytania łącznie (1 otwierające + max 3 follow-upy)
+- Jedno pytanie na wiadomość. NIE zadawaj dwóch pytań naraz.
+- Jeśli po 2 pytaniach masz wystarczająco materiału — STOP, nie ciągnij na siłę
+- Słuchaj co użytkownik mówi MIĘDZY wierszami — często najlepszy hook jest w dygresji
+
+---
+
+## Krok 3 — Napisz post
+
+Po zebraniu odpowiedzi, napisz post na LinkedIn.
+
+**KRYTYCZNA ZASADA: Używaj DOSŁOWNYCH słów i fraz użytkownika.**
+Nie parafrazuj, nie ulepszaj, nie dodawaj mądrych metafor. Jeśli użytkownik powiedział "to jest głupota" — napisz "to jest głupota", nie "to budzi wątpliwości". Post ma brzmieć jak użytkownik, nie jak AI.
+
+**Struktura posta:**
+
+1. **Hook (1-2 zdania)** — osobista reakcja lub zaskakujący fakt z odpowiedzi użytkownika. Stwierdzenie, NIE pytanie. Emocja lub kontrast.
+
+2. **Kontekst (2-4 zdania)** — co się stało, skąd to wiem. News + osobiste doświadczenie użytkownika.
+
+3. **Insight (2-3 zdania)** — co z tego wynika, czego się nauczyłem. Wartość dla czytelnika — co może ZROBIĆ po przeczytaniu.
+
+4. **Zakończenie (1 zdanie)** — pytanie do czytelników o ich doświadczenie LUB osobista obserwacja.
+
+**Zasady pisania:**
+- 150-250 słów
+- Krótkie akapity (1-2 zdania max)
+- Jedno zdanie = jedna linia
+- Zero buzzwordów (rewolucyjny, game-changer, przełomowy)
+- Zero emoji w tekście (max 1 na końcu jeśli pasuje)
+- Zero list numerowanych i nagłówków
+- Pisz do "Ty", jedna osoba
+- Ton: kumpel przy kawie, nie guru na scenie
+
+**Prezentuj tak:**
+
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+POST LINKEDIN — GOTOWY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[treść posta]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Słów: [X]
+Hook: [typ — osobista reakcja / fakt / kontrast]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Chcesz coś zmienić? Podaj co poprawić, albo napisz "ok" jeśli gotowe.
+```
+
+---
+
+## Zasady ogólne
+
+- Briefing ma być KRÓTKI — max 10 linii z newsami
+- Interview to ROZMOWA, nie formularz — reaguj na odpowiedzi
+- Post musi brzmieć jak użytkownik, NIE jak AI
+- Jeśli WebSearch nie znajdzie nic świeżego — powiedz wprost i zapytaj o własny temat
+- Jeśli użytkownik chce poprawki — iteruj, nie pisz od zera
+- Max 1 iteracja poprawek, potem oddaj kontrolę użytkownikowi
