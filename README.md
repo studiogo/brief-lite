@@ -4,6 +4,9 @@ Skill, który zamienia aktualne newsy z Twojej branży w gotowy post na LinkedIn
 
 **Bez kopiuj-wklej. Bez AI-owej papki. Twoje słowa, Twój głos.**
 
+![licencja](https://img.shields.io/github/license/studiogo/brief-lite?style=flat-square)
+![ostatnia zmiana](https://img.shields.io/github/last-commit/studiogo/brief-lite?style=flat-square)
+
 ## Jak to działa?
 
 1. AI szuka newsów z Twojej branży (ostatnie 24h)
@@ -87,7 +90,7 @@ Gemini CLI od Google używa formatu TOML zamiast Markdown. W repozytorium jest g
 
 **1. Zainstaluj Gemini CLI** (jeśli nie masz):
 ```bash
-npm install -g @anthropic-ai/gemini-cli
+npm install -g @google/gemini-cli
 ```
 Oficjalna instrukcja: [gemini CLI](https://github.com/google-gemini/gemini-cli)
 
@@ -157,6 +160,18 @@ Nie bezpośrednio — ChatGPT nie obsługuje custom commands. Ale możesz skopio
 
 **Czy to jest bezpieczne?**
 Skill to plik tekstowy z instrukcjami dla AI. Nie instaluje żadnego oprogramowania, nie zbiera danych, nie łączy się z zewnętrznymi serwisami (poza wyszukiwarką newsów).
+
+---
+
+## Zgłaszanie błędów i propozycje
+
+Coś nie działa albo masz pomysł na zmianę — [otwórz zgłoszenie](https://github.com/studiogo/brief-lite/issues). Zasady współtworzenia: [CONTRIBUTING.md](CONTRIBUTING.md).
+
+---
+
+## Licencja
+
+MIT — [LICENSE](LICENSE). Możesz używać, zmieniać i rozdawać dalej, także komercyjnie.
 
 ---
 
